@@ -12,7 +12,7 @@
         {
             try
             {
-                Id client =""
+              //Colocar a API do Google para fazer a autenticação com um simples toque no botão
             }
         }
     }

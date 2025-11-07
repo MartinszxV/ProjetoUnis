@@ -29,13 +29,16 @@
 
                 <Border x:Name="BotaoGoogle" StrokeShape="RoundRectangle 30" BackgroundColor="#A0191970" HeightRequest="70" Padding="10,0" StrokeThickness="0">
                             <Border.GestureRecognizers>
-                                <TapGestureRecognizer Tapped="OnGoogleLoginClicked" />
+                        <TapGestureRecognizer Tapped="OnGoogleLoginClicked" />
                             </Border.GestureRecognizers>
                             <HorizontalStackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="10">
                                 <Image Source="logogoogle.png" HeightRequest="63"/>
-                                <Label Text="Continue com o Google" TextColor="White" FontSize="19" FontAttributes="Bold" VerticalOptions="Center"/>
-                            </HorizontalStackLayout>
+                        <Label Text="Continue com o Google" TextColor="White" FontSize="19" FontAttributes="Bold" VerticalOptions="Center"/>
+                    </HorizontalStackLayout>
                         </Border>
+                <HorizontalStackLayout>
+                    <Label x:Name="UserInfoLabel"  Text="Você não está logado." FontSize="16"/>
+                </HorizontalStackLayout>
 
             </VerticalStackLayout>
         </ScrollView>

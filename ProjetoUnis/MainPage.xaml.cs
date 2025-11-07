@@ -1,6 +1,6 @@
 ﻿namespace ProjetoUnis
 {
-
+    // A classe deve ter o mesmo nome do seu arquivo XAML (MainPage)
     public partial class MainPage : ContentPage
     {
         public MainPage()
